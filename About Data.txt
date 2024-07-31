@@ -1,0 +1,81 @@
+About the loan_data.csv file:
+Loan_ID: A unique loan ID.
+Gender: Either male or female.
+Married: Weather Married(yes) or Not Marttied(No).
+Dependents: Number of persons depending on the client.
+Education: Applicant Education(Graduate or Undergraduate).
+Self_Employed: Self-employed (Yes/No).
+ApplicantIncome: Applicant income.
+CoapplicantIncome: Co-applicant income.
+LoanAmount: Loan amount in thousands.
+Loan_Amount_Term: Terms of the loan in months.
+Credit_History: Credit history meets guidelines.
+Property_Area: Applicants are living either Urban, Semi-Urban or Rural.
+Loan_Status: Loan approved (Y/N).
+
+
+Loan_ID:
+
+A unique identifier assigned to each loan application.
+Example: "LP001002"
+Purpose: Helps to distinguish each loan application from others.
+Gender:
+
+Indicates the gender of the applicant.
+Values: "Male" or "Female"
+Purpose: Provides demographic information about the applicant, which can be useful for analysis.
+Married:
+
+Indicates whether the applicant is married or not.
+Values: "Yes" (Married) or "No" (Not Married)
+Purpose: Helps in understanding the marital status of applicants, which might influence loan approval.
+Dependents:
+
+The number of dependents that rely on the applicant.
+Example: "0", "1", "2", "3+"
+Purpose: Shows the number of people financially dependent on the applicant, which can impact their financial stability.
+Education:
+
+The educational qualification of the applicant.
+Values: "Graduate" or "Not Graduate"
+Purpose: Indicates the education level, which might be related to the applicant's job and income.
+Self_Employed:
+
+Indicates whether the applicant is self-employed.
+Values: "Yes" or "No"
+Purpose: Helps to understand the nature of the applicant's employment, which can affect income stability.
+ApplicantIncome:
+
+The income of the applicant.
+Example: 5000 (in currency units)
+Purpose: Indicates the applicant’s earnings, which is a critical factor in loan approval decisions.
+CoapplicantIncome:
+
+The income of the co-applicant (if any).
+Example: 2000 (in currency units)
+Purpose: Shows the additional income that can be considered for loan repayment.
+LoanAmount:
+
+The amount of loan requested by the applicant, in thousands.
+Example: 128 (represents 128,000 currency units)
+Purpose: The principal amount of the loan, which is a fundamental part of the loan application.
+Loan_Amount_Term:
+
+The term of the loan in months.
+Example: 360 (represents 30 years)
+Purpose: Shows the duration over which the loan needs to be repaid.
+Credit_History:
+
+Indicates if the applicant’s credit history meets the bank's guidelines.
+Values: 1 (Meets guidelines) or 0 (Does not meet guidelines)
+Purpose: Provides information about the applicant’s past credit behavior, a critical factor in loan approval.
+Property_Area:
+
+The type of area where the applicant’s property is located.
+Values: "Urban", "Semi-Urban", "Rural"
+Purpose: Indicates the property location, which might impact the property's value and the loan's risk.
+Loan_Status:
+
+Indicates whether the loan was approved.
+Values: "Y" (Yes) or "N" (No)
+Purpose: Shows the outcome of the loan application, which is the target variable for prediction.
